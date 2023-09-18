@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "vite build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.6",
